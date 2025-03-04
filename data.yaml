@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['4-wheels', '6-more-wheels', '6-wheels']
+
+roboflow:
+  workspace: deeprod
+  project: -ej2hv-e6xlh
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/deeprod/-ej2hv-e6xlh/dataset/4
